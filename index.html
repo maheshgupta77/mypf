@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="./newlog.JPG" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home</a></li>
+                    <li><a href="#about"> About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I am <span>Mahesh Gupta </span><br>From Mumbai</h1>
+                <img src="./img1.jpeg" >
+            </div> 
+        </div>
+    </div> 
+    <!---------------About section------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./mahesh.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="parag" style="color: royalblue;">My name is Mahesh Gupta.Currently I Completed my Master of computer application(MCA) from Hiray College.I Completed My Graduation From DTSS College of commerce.I have intrest in creative,searching new Data about realted to technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                        <li><span>web Development</span><br>Website Development</li>
+                        <li><span>Front End OR Backend Development</span><br>PHP,mysql,html,css,javascript</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Late Bhausaheb Hiray Smarnika Samiti Trust's Institute of Computer Application</span><br> MASTERS OF COMPUTER APPLICATION(2023)</li>
+                        <li><span>D.T.S.S COLLEGE OF COMMERCE (2020)</span><br>
+                          Bachelor of science(Information Technology)<br>
+                           CGPI: 7.48/10</li>
+                        <li><span>NIRMAL JR. COLLEGE COMMERCE AND SCIENCE</span><br>
+                          HSC(12TH )(2017)<br>
+                          Percentage: 44.77%<br></li>
+                        <li><span>NUTAN VIDYA MANDIR HIGHSCHOOL</span><br>
+                           SSC(10TH )(2015)<br>
+                            Percentage: 75.40%</li>
+                    </ul>
+
+                </div>
+
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!----------------------------services----------------------->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+       
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/UX Designing</h2>
+            <p> Figma design is for people to create, share, and test designs for websites, mobile apps, and other digital products and experiences. It is a popular tool for designers, product managers, writers and developers and helps anyone involved in the design process contribute, give feedback, and make better decisions</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa fa-globe"></i>
+            <h2>Website Development</h2>
+            <p> Web developers create and maintain websites. We responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle. In addition, web developers may create content for the site.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <h2>Front End OR Backend Development</h2>
+            <p> Programming languages, such as HTML, CSS, JavaScript, PHP,MySQL  to build the different components of the application.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+    </div>
+    
+
+</div>
+</div>
+<!--------------------------------------Portfolio-------------------------------->
+<div id="portfolio">                                                              
+    <div class="container">
+        <h1 class="sub-title">My Certification</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./cert1.jpg">
+            </div>
+            <div class="work">
+                <img src="./cert2.jpg">
+            </div>
+            <div class="work">
+                <img src="./cert3.JPG">
+            </div>
+            <div class="work">
+                <img src="./cert4.JPG">
+            </div>
+            <div class="work">
+                <img src="./cert5.JPG">
+            </div>
+            <div class="work">
+                <img src="./cert6.JPG">
+            </div>
+            <div class="work">
+                <img src="./cert7.JPG">
+            </div>
+            <div class="work">
+                <img src="./cert8.jpeg">
+            </div>
+
+
+        </div>
+         
+
+    </div>
+
+</div>
+
+<!------------------------------------contact me--------------------->
+<footer>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> maheshgreal@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8655714791</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"> <i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="./Mahesh gupta (cv).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright @ mgtech.made by<i class="fa-solid fa-heart"></i> mahesh Gupta</p>
+
+</div>
+</footer>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent  of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+     var sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right ="0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwSvMuIkyTS-GiErmS4SF0CeH5zhcB7sz9-FS5TaIwv1dh3T_AzZcmfPVTeECMVszZz/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+    
+</body>
+</html>
